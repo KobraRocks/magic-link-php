@@ -1,0 +1,19 @@
+{
+    "name": "magic-link/magic-link-php",
+    "description": "Magic link generation and verification library",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MagicLink\\": "src/MagicLink/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MagicLink\\Tests\\": "tests/"
+        }
+    }
+}
