@@ -579,20 +579,20 @@ if ($res->ok) {
 
 ## 25) Implementation Checklist
 
-* [ ] Base64url encoder/decoder (no padding)
-* [ ] Canonical JSON encoder/decoder (sorted keys)
-* [ ] Header/payload models with validation
-* [ ] HMAC signer/verifier (HS256)
-* [ ] Optional AES-GCM encrypt/decrypt (feature-detect `openssl`)
-* [ ] `Key`/`KeySet` with signing vs verifying logic
-* [ ] `LinkBuilder` + URL assembly (`ml` param)
-* [ ] `Verifier` pipeline with reason codes
-* [ ] `NonceStoreInterface` + Memory & Blackhole implementations
-* [ ] `Clock` interface + `SystemClock`
-* [ ] Exceptions and safe logging helpers
-* [ ] Comprehensive unit tests
-* [ ] PHPDoc + type hints throughout
-* [ ] Strict types and `declare(strict_types=1);`
+* [x] Base64url encoder/decoder (no padding)
+* [x] Canonical JSON encoder/decoder (sorted keys)
+* [x] Header/payload models with validation
+* [x] HMAC signer/verifier (HS256)
+* [x] Optional AES-GCM encrypt/decrypt (feature-detect `openssl`)
+* [x] `Key`/`KeySet` with signing vs verifying logic
+* [x] `LinkBuilder` + URL assembly (`ml` param)
+* [x] `Verifier` pipeline with reason codes
+* [x] `NonceStoreInterface` + Memory & Blackhole implementations
+* [x] `Clock` interface + `SystemClock`
+* [x] Exceptions and safe logging helpers
+* [x] Comprehensive unit tests (native PHP runner via `php tests/run.php`)
+* [x] PHPDoc + type hints throughout
+* [x] Strict types and `declare(strict_types=1);`
 
 ---
 
